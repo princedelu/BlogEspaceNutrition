@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://blog.espace-nutrition.fr/</title>
+  <link>http://blog.espace-nutrition.fr/</link>
+
+<item>
+     <link>http://blog.espace-nutrition.fr/</link>
+     <title>Blog - Espace Nutrition</title>
+     <description>Blog - Espace Nutrition</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
