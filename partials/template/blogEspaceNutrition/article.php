@@ -70,7 +70,7 @@ Retour à l'accueil</a>
 		</div>
 	</div>
 
-	<div commentaires id="livefyre-comments" articleid="article.id"></div>                                              
+	<div commentaires id="livefyre-comments" articleid="{{article.id}}"></div>                                              
 <?php
 	include("commun/footer.php");
 ?>                                                                               

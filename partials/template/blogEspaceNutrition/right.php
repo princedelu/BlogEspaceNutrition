@@ -2,7 +2,12 @@
 	<div class="col-md-12 ">
 		<div class="row">
 			<div class="col-md-12 titreRightColumn">
-				BLog d'une Diététicienne Nutritionniste <s>un peu</s> geek, <s>un peu</s> gourmande et passionnée par son métier
+				Blog d'une Diététicienne Nutritionniste <s>un peu</s> geek, <s>un peu</s> gourmande et passionnée par son métier
+			</div> 
+		</div>
+		<div class="row">
+			<div class="col-md-12 titreRightColumn">
+				<img src="/images/myAvatar.png" width="50%"alt"myAvatar" />
 			</div> 
 		</div>
 	</div> 

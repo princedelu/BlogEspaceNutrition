@@ -20,7 +20,7 @@ footer {
 
   padding-top:40px;
   padding-bottom:40px;
-  background-color:#cecece;
+  background-color:#e0e0e0;
  
 }
 
@@ -107,8 +107,9 @@ footer {
 }
 
 .cellRight{
-	background-color:#CCCCCC;
+	background-color:#e0e0e0;
 	margin : 10px -15px;
+	color : #000000;
 }
 
 
@@ -332,3 +333,5 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+
+#avatar { width: 75%; background-image: url(/images/myAvatar.png); }

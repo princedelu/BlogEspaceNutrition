@@ -384,11 +384,11 @@ angular.module('BlogEspaceNutrition')
 (function(){
 "use strict";
 
-angular.module('BlogEspaceNutrition').directive('commentaires', function() {
+angular.module('BlogEspaceNutrition').directive('commentaires', function($location) {
     return {
         link: function(scope, element, attrs) {
             var $element = $(element);
-			var articleId = fyre.conv.load.makeArticleId(attrs.articleid);
+			var articleId = fyre.conv.load.makeArticleId($location.absUrl());
 			var customStrings = {
 				signIn: "Identification",
 		        signInGuest: "Se connecter en invit\u00e9",
@@ -479,7 +479,7 @@ angular.module('BlogEspaceNutrition').directive('commentaires', function() {
 				signed: false,
 				collectionMeta: {
 				    articleId: articleId,
-				    url: fyre.conv.load.makeCollectionUrl(),
+				    url: fyre.conv.load.makeCollectionUrl($location.absUrl(), [], true),
 				}
 			}], function() {});
         }
