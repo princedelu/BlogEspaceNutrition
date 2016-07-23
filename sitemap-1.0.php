@@ -78,7 +78,7 @@ function GetUrl ($url)
 	
 	curl_setopt($ch, CURLOPT_HTTPHEADER, 
 		array(
-			'Authorization: BearerPublic eyJpc3MiOiJodHRwOi8vd3d3LmVzcGFjZS1udXRyaXRpb24uZnIiLCJhdWQiOiJFc3BhY2UgTnV0cml0aW9uIiwiZXhwIjoxNDc5MjgwMTg2LCJyb2xlIjoiYW5vbnltZSJ9'
+			'Authorization: BearerPublic eyJpc3MiOiJodHRwOi8vd3d3LmVzcGFjZS1udXRyaXRpb24uZnIiLCJhdWQiOiJFc3BhY2UgTnV0cml0aW9uIiwiZXhwIjo0NDc5MjgwMTg2LCJyb2xlIjoiYW5vbnltZSJ9'
 		)
 	);
 
