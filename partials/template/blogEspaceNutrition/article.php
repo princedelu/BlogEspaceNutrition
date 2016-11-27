@@ -17,7 +17,12 @@ Retour à l'accueil</a>
 								{{article.titre}}
 							</div>
 							<div class="row articleInfo">
-								<small class="text-muted">Le {{article.date}} - {{article.libelle_long}}</small>
+								<small class="text-muted">Le {{article.date}}</small>
+							</div>
+							<div class="row articleCategories">
+								<div ng-repeat="categorie in article.categories">
+									<small class="text-muted" ><span class="label label-categorie">{{categorie.libelle_long}}</span></small>
+								</div>
 							</div>
 							<div class="row articlePartie1">
 								<h4 ng-bind-html="renderHtml(article.partie2)"></h4>

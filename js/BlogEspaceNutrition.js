@@ -268,8 +268,12 @@ angular.module('BlogEspaceNutrition')
 		if($location.search().categorie){
 			$scope.categorie=$location.search().categorie;
 		}
+		
+		if($window.sessionStorage.search!==undefined){
+			$scope.recherche=$window.sessionStorage.search;
+		}
 
-		PublicFactory.listArticles($scope.page,$scope.categorie,
+		PublicFactory.listArticles($scope.page,$scope.categorie,$scope.recherche,
 			function (res) {
 				$scope.loading = false;
 				$scope.articles = res.result;
@@ -283,6 +287,22 @@ angular.module('BlogEspaceNutrition')
 		
 		$scope.loadData();
 
+	};
+	
+	$scope.search = function () {
+		if ($scope.valeurrecherche !== undefined){
+			$window.sessionStorage.search=$scope.valeurrecherche;
+			
+		}else{
+			delete $window.sessionStorage.search;
+		}
+		$route.reload();
+	};
+	
+	$scope.delSearch = function () {
+		delete $scope.recherche;
+		delete $window.sessionStorage.search;
+		$route.reload();
 	};
 
 	$scope.loadData = function(){
@@ -501,20 +521,26 @@ angular.module('BlogEspaceNutrition').directive('commentaires', function($locati
 		var uri;
 		var uriRange='';
 		var uriCategorie='';
+		var uriValeurRecherche='';
 
 		return {
-			listArticles: function(page,categorie,success, error) {
-				if (page !== undefined || categorie !== undefined){
+			listArticles: function(page,categorie,valeurrecherche,success, error) {
+				if (page !== undefined || categorie !== undefined || valeurrecherche !== undefined){
 					if (page !== undefined){
 						rangeMin=parseInt(page)*nbArticlesParPages - nbArticlesParPages;
 						rangeMax=parseInt(page)*nbArticlesParPages - 1;
 						range=rangeMin.toString().concat("-").concat(rangeMax.toString());
 						uriRange='range='+range;
 					}
+					uriCategorie='';
 					if (categorie !== undefined){
 						uriCategorie='categorie='+categorie;
 					}
-					$http.get('/api/articles?'+uriRange+'&'+uriCategorie).success(success).error(error);
+					uriValeurRecherche='';
+					if (valeurrecherche !== undefined ){
+						uriValeurRecherche='recherche='+valeurrecherche;
+					}
+					$http.get('/api/articles?'+uriRange+'&'+uriCategorie+'&'+uriValeurRecherche).success(success).error(error);
 				}else{
 					$http.get('/api/articles').success(success).error(error);
 				}

@@ -13,6 +13,7 @@ abstract class AbstractModel {
 	protected $dblink;
 	protected $dbClose;
 	protected $_errorType;
+	protected $_error;
 
     // Make sure to run this parent method within all child model constructors
     public function __construct()

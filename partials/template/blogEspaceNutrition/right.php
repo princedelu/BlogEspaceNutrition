@@ -1,3 +1,18 @@
+<div class="row">
+	<div id="custom-search-input">
+		<form name="searchForm" ng-submit='search()'>
+			<div class="input-group col-md-12">
+				<input type="text" data-ng-model="valeurrecherche" class="search-query form-control" placeholder="Recherche" />
+				<span class="input-group-btn">
+					<button class="btn btn-search" type="submit">
+						<span class="fa fa-search"></span>
+					</button>
+				</span>
+			</div>
+		</form>
+	</div>
+</div>
+
 <div class="row cellRight">
 	<div class="col-md-12 ">
 		<div class="row">

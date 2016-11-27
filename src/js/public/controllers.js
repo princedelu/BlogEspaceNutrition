@@ -37,8 +37,12 @@ angular.module('BlogEspaceNutrition')
 		if($location.search().categorie){
 			$scope.categorie=$location.search().categorie;
 		}
+		
+		if($window.sessionStorage.search!==undefined){
+			$scope.recherche=$window.sessionStorage.search;
+		}
 
-		PublicFactory.listArticles($scope.page,$scope.categorie,
+		PublicFactory.listArticles($scope.page,$scope.categorie,$scope.recherche,
 			function (res) {
 				$scope.loading = false;
 				$scope.articles = res.result;
@@ -52,6 +56,22 @@ angular.module('BlogEspaceNutrition')
 		
 		$scope.loadData();
 
+	};
+	
+	$scope.search = function () {
+		if ($scope.valeurrecherche !== undefined){
+			$window.sessionStorage.search=$scope.valeurrecherche;
+			
+		}else{
+			delete $window.sessionStorage.search;
+		}
+		$route.reload();
+	};
+	
+	$scope.delSearch = function () {
+		delete $scope.recherche;
+		delete $window.sessionStorage.search;
+		$route.reload();
 	};
 
 	$scope.loadData = function(){

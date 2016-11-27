@@ -28,9 +28,11 @@ $app->get('/articles', function () use ($app) {
 	$article = new ArticleModel();
 	$rangeValue = $app->request()->params('range');
 	$categorieValue = $app->request()->params('categorie');
+	$rechercheValue = $app->request()->params('recherche');
 
 	$article->setNbArticlesParPage(5);
 	$article->setIdCategorie($categorieValue);
+	$article->setRecherche($rechercheValue);
 
 	try{
 		$indexMin=0;

@@ -10,13 +10,21 @@ include("commun/header.php");
 					<div class="row" ng-show="categorieLib">
 						<a class="btn btn-danger" href="/">Catégorie : {{categorieLib}} <i class="fa fa-trash"></i></a>
 					</div>
+					<div class="row" ng-show="recherche">
+						<a class="btn btn-danger" ng-click="delSearch();">Recherche : {{recherche}} <i class="fa fa-trash"></i></a>
+					</div>
 					<div class="row articleLigne" ng-repeat="article in articles">
 						<div class="col-md-12">
 							<div class="row articleTitre">
 								<a href="/articles_{{article.id}}">{{article.titre}}</a>
 							</div>
 							<div class="row articleInfo">
-								<small class="text-muted">Le {{article.date}} - {{article.libelle_long}}</small>
+								<small class="text-muted">Le {{article.date}}</small>
+							</div>
+							<div class="row articleCategories">
+								<div ng-repeat="categorie in article.categories">
+									<small class="text-muted" ><span class="label label-categorie">{{categorie.libelle_long}}</span></small>
+								</div>
 							</div>
 							<div class="row articlePartie1">
 								<h4 ng-bind-html="renderHtml(article.partie1)"></h4>

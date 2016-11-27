@@ -91,6 +91,15 @@ footer {
 	text-align : center;
 }
 
+.articleCategories{
+	text-align : center;
+}
+
+.label-categorie {
+	font-size: 10px;
+    background-color: #75127a;
+}
+
 .articleInfo{
 	font-family: Pacifico;
 	font-size: 25px;
@@ -335,3 +344,11 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 #avatar { width: 75%; background-image: url(/images/myAvatar.png); }
+
+.btn-search {
+    color: #fff;
+    background-color: #75127a;
+    border-color: #75127a;
+	z-index:1000;
+}
+

@@ -12,20 +12,26 @@
 		var uri;
 		var uriRange='';
 		var uriCategorie='';
+		var uriValeurRecherche='';
 
 		return {
-			listArticles: function(page,categorie,success, error) {
-				if (page !== undefined || categorie !== undefined){
+			listArticles: function(page,categorie,valeurrecherche,success, error) {
+				if (page !== undefined || categorie !== undefined || valeurrecherche !== undefined){
 					if (page !== undefined){
 						rangeMin=parseInt(page)*nbArticlesParPages - nbArticlesParPages;
 						rangeMax=parseInt(page)*nbArticlesParPages - 1;
 						range=rangeMin.toString().concat("-").concat(rangeMax.toString());
 						uriRange='range='+range;
 					}
+					uriCategorie='';
 					if (categorie !== undefined){
 						uriCategorie='categorie='+categorie;
 					}
-					$http.get('/api/articles?'+uriRange+'&'+uriCategorie).success(success).error(error);
+					uriValeurRecherche='';
+					if (valeurrecherche !== undefined ){
+						uriValeurRecherche='recherche='+valeurrecherche;
+					}
+					$http.get('/api/articles?'+uriRange+'&'+uriCategorie+'&'+uriValeurRecherche).success(success).error(error);
 				}else{
 					$http.get('/api/articles').success(success).error(error);
 				}
