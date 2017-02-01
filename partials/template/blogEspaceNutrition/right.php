@@ -76,13 +76,13 @@
 			<div class="col-md-12 contentRigthColumnCenter">
 				<ul class="social-network social-circle">
 					<li><!-- Facebook -->
-						<a href="https://www.facebook.com/Angeliqueguehlespacenutrition/" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/Angeliqueguehlveggiedieteticienne" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
 					</li>
 					<li>
 						<a href="https://twitter.com/gargamelle86" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/dieteticienne_niort/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.instagram.com/veggie_dieteticienne/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
 					</li>
 				</ul>
 			</div> 
