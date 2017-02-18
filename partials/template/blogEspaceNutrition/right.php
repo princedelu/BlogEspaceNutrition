@@ -17,7 +17,7 @@
 	<div class="col-md-12 ">
 		<div class="row">
 			<div class="col-md-12 titreRightColumn">
-				Blog d'une Diététicienne Nutritionniste <s>un peu</s> geek, <s>un peu</s> gourmande et passionnée par son métier
+				Blog d'une Diététicienne Nutritionniste geek, gourmande et passionnée par son métier
 			</div> 
 		</div>
 		<div class="row">
@@ -86,6 +86,23 @@
 					</li>
 				</ul>
 			</div> 
+		</div>
+	</div> 
+</div>
+
+<div class="row cellRight">
+	<div class="col-md-12 ">
+		<div class="row">
+			<div class="col-md-12 titreRightColumn">
+				Partenaires
+			</div> 
+		</div>
+		<div class="row contentRigthColumnCenter">
+			<!-- BEGIN PARTNER PROGRAM - DO NOT CHANGE THE PARAMETERS OF THE HYPERLINK -->
+			<a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">
+				<img src="https://static.nu3.de/DE/affiliate/logo/nu3-logo_120x60px.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
+			</a>
+			<!-- END PARTNER PROGRAM -->
 		</div>
 	</div> 
 </div>
