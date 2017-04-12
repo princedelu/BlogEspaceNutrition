@@ -115,6 +115,13 @@
 			</a><br/><br/>
 		    -15% avec le code <b>NUTRITION15</b> sur le site <a href="https://www.fittea.fr/" target="_blank">https://www.fittea.fr/</a>
 		</div>
+		<hr/>
+		<div class="row contentRigthColumnCenter">
+			<a href="https://www.quitoque.fr/" target="_blank">
+				<img src="/images/quitoque.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
+			</a><br/><br/>
+		    -20 euros sur vos deux premiers paniers avec le code <b>KAKI20-40</b> sur le site <a href="https://www.quitoque.fr/" target="_blank">https://www.quitoque.fr/</a>
+		</div>
 	</div> 
 </div>
 
