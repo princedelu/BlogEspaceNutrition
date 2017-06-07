@@ -84,6 +84,9 @@
 					<li>
 						<a href="https://www.instagram.com/veggie_dieteticienne/" target="_blank" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>
 					</li>
+					<li>
+						<a href="https://fr.pinterest.com/veggiediet79/" target="_blank" class="icoPinterest" title="Pinterest"><i class="fa fa-pinterest"></i></a>
+					</li>
 				</ul>
 			</div> 
 		</div>
@@ -101,7 +104,7 @@
 			<a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">
 				<img src="https://static.nu3.de/DE/affiliate/logo/nu3-logo_120x60px.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
 			</a><br/><br/>
-		    -15% avec le code <b>ANGELIQUE15</b> sur le site <a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">https://www.nu3.fr/</a><br/>
+		    -15% avec le code <b>ANGEL15</b> sur le site <a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">https://www.nu3.fr/</a><br/>
 			<small>
 				Seulement pour les produits nu3 et BEAVITA<br/>
 				Valable jusqu'au 20.05.2017<br/>
@@ -113,7 +116,7 @@
 			<a href="https://www.fittea.fr/" target="_blank">
 				<img src="/images/fitvia.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="120" />
 			</a><br/><br/>
-		    -15% avec le code <b>NUTRITION15</b> sur le site <a href="https://www.fittea.fr/" target="_blank">https://www.fittea.fr/</a>
+		    -15% avec le code <b>NUTRITION</b> sur le site <a href="https://www.fittea.fr/" target="_blank">https://www.fittea.fr/</a>
 		</div>
 		<hr/>
 		<div class="row contentRigthColumnCenter">

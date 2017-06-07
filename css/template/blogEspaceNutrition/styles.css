@@ -304,6 +304,10 @@ a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
 }
 
+.social-network a.icoPinterest:hover,.social-network a.icoPinterest:hover i,.social-network a.icoPinterest {
+	background-color:#bd081c;
+}
+
 .social-circle li a {
 	display:inline-block;
 	position:relative;
