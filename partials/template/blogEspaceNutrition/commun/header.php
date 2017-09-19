@@ -34,7 +34,7 @@
 		</div>
 		<div class="row">
 	  		<div class="col-md-12 headrightBottom">
-				Conseils et informations nutrition, tests produits et recettes diététiques
+				Alimentation végétale, recettes végétaliennes et tests produits
 			</div>
 		</div>
 

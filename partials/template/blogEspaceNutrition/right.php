@@ -101,29 +101,10 @@
 			</div> 
 		</div>
 		<div class="row contentRigthColumnCenter">
-			<a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">
-				<img src="https://static.nu3.de/DE/affiliate/logo/nu3-logo_120x60px.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
+			<a href="https://iswari.fr/" target="_blank">
+				<img src="/images/iswari.png" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
 			</a><br/><br/>
-		    -15% avec le code <b>ANGEL15</b> sur le site <a href="http://clic.reussissonsensemble.fr/click.asp?ref=799276&site=13848&type=b30&bnb=30" target="_blank">https://www.nu3.fr/</a><br/>
-			<small>
-				Seulement pour les produits nu3 et BEAVITA<br/>
-				Valable jusqu'au 20.05.2017<br/>
-				Offre réservée aux nouveaux clients
-			</small>
-		</div>
-		<hr/>
-		<div class="row contentRigthColumnCenter">
-			<a href="https://www.fittea.fr/" target="_blank">
-				<img src="/images/fitvia.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="120" />
-			</a><br/><br/>
-		    -15% avec le code <b>NUTRITION</b> sur le site <a href="https://www.fittea.fr/" target="_blank">https://www.fittea.fr/</a>
-		</div>
-		<hr/>
-		<div class="row contentRigthColumnCenter">
-			<a href="https://www.quitoque.fr/" target="_blank">
-				<img src="/images/quitoque.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
-			</a><br/><br/>
-		    -20 euros sur vos deux premiers paniers avec le code <b>KAKI20-40</b> sur le site <a href="https://www.quitoque.fr/" target="_blank">https://www.quitoque.fr/</a>
+		    -10% et frais de port offerts pour un minimum de commande de 40€<br/>avec le code <b>WEB-ANGELISWARI</b> sur le site <a href="https://iswari.fr/" target="_blank">https://iswari.fr/</a>
 		</div>
 	</div> 
 </div>
