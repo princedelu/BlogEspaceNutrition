@@ -17,12 +17,7 @@
 	<div class="col-md-12 ">
 		<div class="row">
 			<div class="col-md-12 titreRightColumn">
-				Blog d'une Diététicienne Nutritionniste geek, gourmande et passionnée par son métier
-			</div> 
-		</div>
-		<div class="row">
-			<div class="col-md-12 titreRightColumn">
-				<img src="/images/myAvatar.png" width="50%"alt"myAvatar" />
+				Blog d'une Diététicienne Nutritionniste végétalienne, geek, gourmande et passionnée par son métier
 			</div> 
 		</div>
 	</div> 
@@ -99,6 +94,12 @@
 			<div class="col-md-12 titreRightColumn">
 				Partenaires
 			</div> 
+		</div>
+		<div class="row contentRigthColumnCenter">
+			<a href="http://veggup.com/?utm_source=referral&utm_medium=espacenutrition" target="_blank">
+				<img src="/images/vegup.png" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
+			<br/><br/>
+		    La première application qui vous accompagne vers une alimentation végétale</a>
 		</div>
 		<div class="row contentRigthColumnCenter">
 			<a href="https://iswari.fr/" target="_blank">
