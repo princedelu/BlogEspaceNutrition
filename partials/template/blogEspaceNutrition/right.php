@@ -107,12 +107,6 @@
 			</a><br/><br/>
 		    -10% et frais de port offerts pour un minimum de commande de 20€<br/>avec le code <b>WEB-ANGELISWARI</b> sur le site <a href="https://iswari.fr/" target="_blank">https://iswari.fr/</a>
 		</div>
-		<div class="row contentRigthColumnCenter">
-			<a href="https://www.kazidomi.com/fr/" target="_blank">
-				<img src="/images/kazidomi.jpg" border="0" title="Découvrir" alt="Découvrir" width="140" height="60" />
-			</a><br/><br/>
-		    -10% offert sur l'abonnement KAZIDOMI pour bénéficier de 20% à 30% sur tous les produits de l'e-shop <br/>avec le code <b>ANGEL10</b> sur le site <a href="https://www.kazidomi.com/fr/" target="_blank">https://www.kazidomi.com/fr/</a>
-		</div>
 	</div> 
 </div>
 
