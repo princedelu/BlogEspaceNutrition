@@ -102,12 +102,6 @@
 		    La première application qui vous accompagne vers une alimentation végétale</a>
 		</div>
 		<div class="row contentRigthColumnCenter">
-			<a href="https://iswari.fr/" target="_blank">
-				<img src="/images/iswari.png" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
-			</a><br/><br/>
-		    -10% et frais de port offerts pour un minimum de commande de 20€<br/>avec le code <b>WEB-ANGELISWARI</b> sur le site <a href="https://iswari.fr/" target="_blank">https://iswari.fr/</a>
-		</div>
-		<div class="row contentRigthColumnCenter">
 			<a href="https://biosantesolutions.com/Marque/ProViotic" target="_blank">
 				<img src="/images/proviotic.jpg" border="0" title="Découvrir" alt="Découvrir" width="120" height="60" />
 			</a><br/><br/>
@@ -120,16 +114,10 @@
 		    <a href="https://www.eco-reso.com/" target="_blank">ECO-RESO</a><br/> en quelques clics, trouvez la réponse à votre ECO-CONSO = bio, vegan, sans gluten, développement durable
 		</div>
 		<div class="row contentRigthColumnCenter">
-			<a href="https://www.soy.fr/" target="_blank">
-				<img src="/images/SOY.png" border="0" title="Découvrir" alt="Découvrir" width="90" height="90" />
-			</a><br/><br/>
-		    <a href="https://www.soy.fr/" target="_blank">SOY</a><br/> Produits bio à base de soja français sans OGM
-		</div>
-		<div class="row contentRigthColumnCenter">
 			<a href="https://www.essentielbio.com/44-complements-alimentaires-vegan" target="_blank">
 				<img src="/images/argalys.jpg" border="0" title="Découvrir" alt="Découvrir" width="180" height="60" />
 			</a><br/><br/>
-		    -10% sur toute la gamme de compléments alimentaires <b>Vegan Essentiels</b> avec le code <a href="https://www.essentielbio.com/44-complements-alimentaires-vegan" target="_blank">Veggiediet10</a>
+		    -10% sur toute la gamme de compléments alimentaires <b>Vegan Essentiels</b> avec le code <a href="https://www.essentielbio.com/44-complements-alimentaires-vegan" target="_blank">AGUEHL10</a>
 		</div>
 	</div> 
 </div>
